@@ -1,0 +1,72 @@
+# Operating System Files
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+## C++ Build & Binary Artifacts
+
+# Executables
+*.exe
+*.out
+*.app
+*.bin
+
+# Object files & Libraries
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+
+# Debug / Symbol files
+*.dSYM/
+*.pdb
+*.ilk
+*.idb
+
+# CMake & build folders (if used later)
+build/
+bin/
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+
+## Java Build & Binary Artifacts
+
+# Bytecode
+*.class
+
+# Archives
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+
+# Build directories
+target/
+.gradle/
+out/
+
+## IDEs and Editors
+
+# VS Code (ignoring generated workspace settings/cache)
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# IntelliJ IDEA / CLion
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Eclipse
+.project
+.classpath
+.settings/
